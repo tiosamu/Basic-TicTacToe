@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">    
+    <link rel="shortcut icon" href="files/favicon.ico" type="image/x-icon">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>JOGO DA VELHA</title>
+</head>
+<body>
+    <main class="container">
+    <header class="cabecalho">
+        <div >
+            <h1 id="logov2" class="logo">SPACE</h1>
+            <h2 id="logov3" class="logo2">TIC TAC TOE</h2>
+        </div>
+    </header>
+        <div class="jogodavelha">
+            <div class="linha">
+                <div class="coluna" id="linha1coluna1">
+
+                </div>
+                <div class="coluna" id="linha1coluna2">
+
+                </div>
+                <div class="coluna" id="linha1coluna3">
+
+                </div>
+            </div>
+            <div class="linha">
+                <div class="coluna" id="linha2coluna1">
+
+                </div>
+                <div class="coluna" id="linha2coluna2">
+
+                </div>
+                <div class="coluna" id="linha2coluna3">
+
+                </div>
+            </div>
+            <div class="linha">
+                <div class="coluna" id="linha3coluna1">
+
+                </div>
+                <div class="coluna" id="linha3coluna2">
+
+                </div>
+                <div class="coluna" id="linha3coluna3">
+
+                </div>
+            </div>
+        </div>
+    <section >
+            <button class="botaozinho">RESTART</button>
+    </section>
+
+    <footer>
+        <p class="centralizar">© 2022  <strong> Tic tac Toe.</strong> </p>
+        <p class="centralizar"> Todos os direitos reservados.</p>
+    </footer>
+
+    <script  src="js/jquery-3.6.0.js" ></script>
+    <script>   
+
+        $(document).ready(function () {
+            $("#logov2").fadeOut(100).fadeIn(3000).fadeOut(200).fadeIn(100).fadeOut(200).fadeOut(200).fadeIn(100)
+            $("#logov3").fadeOut(200).fadeIn(2000).fadeOut(200).fadeIn(100).fadeOut(200).fadeOut(200).fadeIn(100)
+        });
+
+    </script>
+
+    </main>
+    <script src="js/script.js"></script>    
+</body>
+</html>
+
+
